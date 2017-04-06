@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/bredele/json-binary/issues"
   },
-  "homepage": "https://github.com/bredele/json-binary#readme"
+  "homepage": "https://github.com/bredele/json-binary#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
 }
