@@ -1,9 +1,18 @@
+/**
+ * Dependencies
+ */
 
+const extract = require('binary-extract')
 
-module.exports = function() {
+/**
+ *
+ */
+
+module.exports = function(buffer) {
+  buffer = new Buffer(buffer)
   return new Proxy({}, {
     get(target, key) {
-      console.log(key)
+      return extract(buffer, key)
     }
   })
 }

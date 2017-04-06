@@ -27,5 +27,8 @@
   "homepage": "https://github.com/bredele/json-binary#readme",
   "devDependencies": {
     "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "binary-extract": "^0.1.1"
   }
 }
