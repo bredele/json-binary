@@ -1,8 +1,5 @@
 # JSON binary
 
-[![Build Status](https://travis-ci.org/bredele/json-binary.svg?branch=master)](https://travis-ci.org/bredele/json-binary)
-[![NPM](https://img.shields.io/npm/v/json-binary.svg?style=flat-square)](https://www.npmjs.com/package/json-binary)
-[![Downloads](https://img.shields.io/npm/dm/json-binary.svg?style=flat-square)](http://npm-stat.com/charts.html?package=json-binary)
 [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/community.md)
 
 Read values from a buffer of JSON:

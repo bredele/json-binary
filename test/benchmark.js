@@ -136,7 +136,7 @@ suite('far', function(){
   })
 
   bench('extract', function(){
-     var val = extract(far, 'projectId')
+     var val = extract(near, 'projectId')
   })
 
   bench('json binary', function(){
