@@ -2,9 +2,7 @@
 
 [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/community.md)
 
-Read values from a buffer of JSON:
-  * **fast**: JSON binary is about ~2-4x faster than JSON.parse and leaves blob out of the V8 heap for optimal performances.
-  * **just an object**: [Extract](https://github.com/juliangruber/binary-extract) and proxy from a buffer without parsing the whole thing. You get an object in which you can get and set keys.
+**Deprecated**. JSON binary is only ~2-4x faster than JSON.parse to extract a single value. Please refer to [binary-extract](https://github.com/juliangruber/binary-extract)for more advanced usage.
 
 ## Usage
 
@@ -22,14 +20,6 @@ const obj = json(new Buffer(`{
 obj.bar
 // => 'baz'
 ```
-
-## Installation
-
-```shell
-npm install json-binary --save
-```
-
-[![NPM](https://nodei.co/npm/json-binary.png)](https://nodei.co/npm/json-binary/)
 
 ## Question
 
