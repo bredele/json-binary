@@ -11,13 +11,13 @@ Read values from a buffer of JSON:
 ```javascript
 const json = require('json-binary')
 
-const obj = json(`{
+const obj = json(new Buffer(`{
   "foo": "bar",
   "bar": "baz",
   "nested": {
     "bar": "nope"  
   }
-}`)
+}`))
 
 obj.bar
 // => 'baz'
